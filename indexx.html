@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godswill Douglas | Data Analyst Portfolio</title>
+    <style>
+        :root { --primary: #0078d4; --dark: #333; --light: #f4f4f4; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--dark); background: var(--light); margin: 0; padding: 0; }
+        .container { max-width: 1000px; margin: 20px auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        
+        /* Updated Header with Flexbox for Resume Button */
+        header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 3px solid var(--primary); 
+            padding-bottom: 20px; 
+            margin-bottom: 30px; 
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .header-text h1 { margin: 0; color: var(--primary); text-transform: uppercase; font-size: 1.8em; }
+        .contact-info { font-size: 0.9em; color: #666; margin-top: 5px; }
+        
+        .btn-resume { 
+            background: var(--primary); 
+            color: white !important; 
+            padding: 12px 20px; 
+            border-radius: 5px; 
+            text-decoration: none; 
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn-resume:hover { background: #005a9e; text-decoration: none; }
+
+        .section-title { border-left: 5px solid var(--primary); padding-left: 15px; margin: 40px 0 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 1.2em; }
+        
+        /* Grid for Skills */
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .skill-category h4 { margin-bottom: 5px; color: var(--primary); }
+        
+        /* Project Cards */
+        .project { background: #fff; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 30px; overflow: hidden; }
+        .project-content { padding: 20px; }
+        .badge { background: var(--primary); color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.75em; margin-right: 5px; vertical-align: middle; }
+        iframe { width: 100%; height: 550px; border: none; background: #eee; }
+        
+        /* Links */
+        a { color: var(--primary); text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header style="display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--primary); padding-bottom: 20px; margin-bottom: 30px; flex-wrap: wrap; gap: 20px;">
+        <div class="header-container">
+            <img src="profile.jpg" alt="Godswill Douglas" class="profile-img">
+            
+            <div class="header-text">
+                <h1>Godswill Ndukachukwu Douglas</h1>
+                <p style="margin: 5px 0;">
+                    <strong>Microsoft Certified: Power BI Data Analyst Associate</strong> 
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-us/GodswillDouglas-7764/4815E74C545AF588?sharingId=94FF5E6A39EB51" target="_blank" style="font-size: 0.8em; margin-left: 10px; color: #28a745;">(Verify Credential ✅)</a>
+                </p>
+                <div class="contact-info">
+                    Lagos, Nigeria | +234 701 932 4243 | godswilldouglas117@gmail.com <br>
+                    <a href="http://www.linkedin.com/in/godswill-douglas-055680221">LinkedIn</a> | <a href="https://github.com/Godswill-07">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="Godswill_Douglas_Resume.pdf" class="btn-resume" target="_blank">
+                Download Resume (PDF)
+            </a>
+        </div>
+    </header>
+
+    <h2 class="section-title">Technical Expertise</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h4>Visualization</h4>
+            <p>Power BI (DAX), Tableau, Excel, PowerPoint</p>
+        </div>
+        <div class="skill-category">
+            <h4>Data Science</h4>
+            <p>Python (Pandas, NumPy, Scikit-learn), SQL, R</p>
+        </div>
+        <div class="skill-category">
+            <h4>Engineering</h4>
+            <p>IoT Systems, AutoCAD, Electrical Power Systems</p>
+        </div>
+    </div>
+
+    <h2 class="section-title">Interactive Dashboards & Projects</h2>
+
+    <div class="project">
+        <div class="project-content">
+            <h3>Hotel Revenue Analysis Dashboard</h3>
+            <span class="badge">Power BI</span> <span class="badge">Hospitality Analytics</span> <span class="badge">Revenue Optimization</span>
+            <p>Developed an automated dashboard to track occupancy rates and RevPAR. Identified a <strong>12% revenue growth opportunity</strong> through pricing optimization and reduced reporting time by 40%.</p>
+        </div>
+        <iframe src="<iframe title="Hotel Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzU5OTlmNTEtYmRiMi00OGI2LTk3NTktOWUzYWUyOTY1MDdkIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" frameborder="0" allowFullScreen="true"></iframe>" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="project">
+        <div class="project-content">
+            <h3>HR Analytics Dashboard</h3>
+            <span class="badge">Power BI</span> <span class="badge">Workforce Planning</span>
+            <p>Analyzed workforce data for 300+ employees, identifying a 50% attrition rate and uncovering key retention drivers through drill-down analysis.</p>
+        </div>
+        <iframe src="<iframe title="HR REPORT" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjkzMDE0MDEtYTI5MS00Nzk0LWE1ZjAtMDYzMjY5Yzk5OWQ1IiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" frameborder="0" allowFullScreen="true"></iframe>" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="project">
+        <div class="project-content">
+            <h3>Banking Credit Risk Pipeline</h3>
+            <span class="badge">Python</span> <span class="badge">Power BI</span> <span class="badge">SQL</span>
+            <p>End-to-end data pipeline for 5,000+ customers. Used Python for EDA and Power BI to visualize risk patterns and loan trends.</p>
+        </div>
+        <iframe src="<iframe title="Banking Report" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZDVlYmZlZGEtYmRmYy00OTUyLWJiZTYtYmI2Yjk5MmNhNGMzIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" frameborder="0" allowFullScreen="true"></iframe>" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="project">
+        <div class="project-content">
+            <h3>Chocolate Sales & Operations Dashboard</h3>
+            <span class="badge">Power BI</span> <span class="badge">Sales Intelligence</span> <span class="badge">Supply Chain</span>
+            <p>Analyzed revenue and logistics efficiency for a chocolate distributor. Focused on cost-to-revenue patterns and identified logistics inefficiencies in low box count shipments.</p>
+            <ul>
+                <li><strong>Profit Optimization:</strong> Analyzed profit margins to identify high-performing product lines.</li>
+                <li><strong>Operational Insight:</strong> Detected resource gaps in logistics, supporting a more efficient shipment strategy.</li>
+            </ul>
+        </div>
+        <iframe src="<iframe title="Sales Performance" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNGFkMmZiOGUtY2IzYi00YzA5LWE5ZDUtNWNkMjVkY2ViY2NhIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" frameborder="0" allowFullScreen="true"></iframe>" allowFullScreen="true"></iframe>
+    </div>
+
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="experience">
+        <h4>Freelance Data Analyst | Dosreal Hotel</h4>
+        <p><em>Aug 2024 – Present</em></p>
+        <ul>
+            <li>Identified 12% revenue growth opportunity via pricing optimization.</li>
+            <li>Automated cleaning processes, reducing reporting time by 40%.</li>
+        </ul>
+
+        <h4>Industrial Trainee | Saipem Contracting Limited</h4>
+        <p><em>April 2024 – September 2024</em></p>
+        <ul>
+            <li>Interpreted AutoCAD wiring diagrams for industrial power systems.</li>
+            <li>Assembled and tested Direct-On-Line (DOL) starter panels with integrated safety systems.</li>
+        </ul>
+    </div>
+
+    <h2 class="section-title">Publications & Research</h2>
+    
+    <div style="padding-left: 20px;">
+        <div style="margin-bottom: 25px;">
+            <p><strong>Douglas, G.N., et al. (2026).</strong> “An IoT-Based Non-Intrusive Temperature Monitoring System for Star-Delta Controlled Induction Motors.”</p>
+            <p><em>Published in: Engineering Headway Journal</em></p>
+            <a href="https://shorturl.at/u8wv7" target="_blank" class="badge" style="padding: 8px 15px; text-decoration: none;">View Publication</a>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <p><strong>Douglas, G.N., et al. (2025).</strong> “IoT-Based Thermal Limit Monitoring and Protection of Induction Motor.”</p>
+            <p><em>Presented at: International Conference, Elizade University</em></p>
+            <a href="https://www.researchgate.net/profile/Oluwadare-Olakunle/publication/399987744_IoT-based_Thermal_Limit_Monitoring_and_Protection_of_Induction_Motor/links/697224992fd82c12a6f759d3/IoT-based-Thermal-Limit-Monitoring-and-Protection-of-Induction-Motor.pdf" target="_blank" class="badge" style="padding: 8px 15px; text-decoration: none;">Read Conference Paper</a>
+        </div>
+    </div>
+
+</body>
+</html>
