@@ -70,11 +70,11 @@
                         </li>
                         <li class="flex items-center gap-2">
                             <iconify-icon icon="simple-icons:mysql" style="color: #4479A1;" width="20"></iconify-icon>
-                            SQL (MySQL / PostgreSQL)
+                            SQL (Window Functions)
                         </li>
                         <li class="flex items-center gap-2">
                             <iconify-icon icon="simple-icons:python" style="color: #3776AB;" width="20"></iconify-icon>
-                            Python (NumPy / Pandas)
+                            Python (Scikit-Learn)
                         </li>
                         <li class="flex items-center gap-2">
                             <iconify-icon icon="simple-icons:arduino" style="color: #00979D;" width="20"></iconify-icon>
@@ -102,9 +102,9 @@
                     <p>I unify disconnected systems into a <span class="accent-color">single source of truth</span>, eliminating conflicting reports and providing a 360-degree view of performance.</p>
                 </div>
                 <div class="glass-card p-8">
-                    <div class="text-xs font-mono accent-color mb-2">02. OPERATIONAL BLIND SPOTS</div>
+                    <div class="text-xs font-mono accent-color mb-2">02. PREDICTIVE MODELS</div>
                     <h4 class="hero-text font-bold mb-4 text-lg">Reactive Downtime</h4>
-                    <p>Leveraging IoT and predictive models to shift from "fix-it-when-it-breaks" to a <span class="accent-color">proactive maintenance</span> model, maximizing system uptime.</p>
+                    <p>Leveraging <span class="accent-color">Random Forest Regressors</span> to shift from "fix-it-when-it-breaks" to proactive maintenance, optimizing system uptime and life cycles.</p>
                 </div>
                 <div class="glass-card p-8">
                     <div class="text-xs font-mono accent-color mb-2">03. DASHBOARD FATIGUE</div>
@@ -121,22 +121,47 @@
 
             <div class="grid lg:grid-cols-12 gap-6 items-center mb-32">
                 <div class="lg:col-span-5 z-10">
+                    <p class="accent-color font-mono text-xs mb-2">Aerospace & Predictive ML | April 2026</p>
+                    <h3 class="text-2xl font-bold hero-text mb-4">Predictive Health Monitoring (NASA C-MAPSS)</h3>
+                    <div class="glass-card p-6 mb-4 text-[#94a3b8] shadow-xl text-sm leading-relaxed">
+                        <ul class="space-y-3">
+                            <li><span class="accent-color mr-1">▹</span> Processed 20,000+ rows of telemetry using <span class="hero-text font-semibold">SQL Window Functions</span> to engineer RUL targets and filter sensor volatility.</li>
+                            <li><span class="accent-color mr-1">▹</span> Developed a <span class="hero-text font-semibold">Random Forest Regressor</span> in Python ($R^2$: 0.95, MAE: 11.88 cycles) to model non-linear degradation.</li>
+                            <li><span class="accent-color mr-1">▹</span> Built a <span class="hero-text font-semibold">Star Schema</span> and custom DAX calendar logic to convert mechanical cycles into date-driven maintenance schedules.</li>
+                            <li><span class="accent-color mr-1">▹</span> Identified a critical <span class="hero-text font-semibold">"Failure Signature" (S4/S11 convergence)</span>, establishing a 20-cycle trigger to boost efficiency by 25%.</li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-3 flex-wrap text-[10px] font-mono mb-6">
+                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">PYTHON</span>
+                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">SQL</span>
+                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">POWER BI</span>
+                    </div>
+                    <a href="https://medium.com/@godswilldouglas117/case-study-predictive-health-monitoring-for-jet-engines-de011deec0b0" target="_blank" class="border border-[#10b981] accent-color px-6 py-2 rounded text-xs font-bold hover:bg-[#10b981]/10 transition-all inline-flex items-center gap-2">
+                        View Case Study <span class="material-symbols-outlined text-sm">open_in_new</span>
+                    </a>
+                </div>
+                <div class="lg:col-span-7 rounded overflow-hidden shadow-2xl border border-[#1e293b]">
+                    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiODU0OTE1OTAtZDhmYS00YWZmLWI1YTYtODJiMDlkMjQ4N2YxIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" class="w-full h-[450px]" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-6 items-center mb-32">
+                <div class="lg:col-span-7 rounded overflow-hidden shadow-2xl border border-[#1e293b] lg:order-first order-last">
+                    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzU5OTlmNTEtYmRiMi00OGI2LTk3NTktOWUzYWUyOTY1MDdkIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" class="w-full h-[450px]"></iframe>
+                </div>
+                <div class="lg:col-span-5 z-10 lg:pl-10">
                     <p class="accent-color font-mono text-xs mb-2">Hospitality Analytics</p>
                     <h3 class="text-2xl font-bold hero-text mb-4">Hotel Revenue Analysis</h3>
                     <div class="glass-card p-6 mb-4 text-[#94a3b8] shadow-xl text-sm leading-relaxed">
                         Developed an automated dashboard to track occupancy and RevPAR. Identified a 12% revenue growth opportunity through pricing optimization and reduced reporting time by 40%.
                     </div>
                     <div class="flex gap-3 flex-wrap text-[10px] font-mono mb-6">
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">POWER BI</span>
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">DAX</span>
                         <span class="bg-[#10b981]/10 px-2 py-1 rounded">REVENUE OPTIMIZATION</span>
+                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">DAX</span>
                     </div>
-                    <a href="https://medium.com/@godswilldouglas117/from-paper-to-profits-how-data-automation-boosted-hotel-revenue-by-12-14445ad704b6" target="_blank" class="border border-[#10b981] accent-color px-6 py-2 rounded text-xs font-bold hover:bg-[#10b981]/10 transition-all inline-flex items-center gap-2">
+                    <a href="https://medium.com/@godswilldouglas117/from-paper-to-profits-how-data-automation-boosted-hotel-revenue-by-12-14445ad704b6" target="_blank" class="accent-color text-xs font-bold hover:underline inline-flex items-center gap-2">
                         View Case Study <span class="material-symbols-outlined text-sm">open_in_new</span>
                     </a>
-                </div>
-                <div class="lg:col-span-7 rounded overflow-hidden shadow-2xl border border-[#1e293b]">
-                    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMzU5OTlmNTEtYmRiMi00OGI2LTk3NTktOWUzYWUyOTY1MDdkIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" class="w-full h-[450px]"></iframe>
                 </div>
             </div>
 
@@ -150,9 +175,8 @@
                     <div class="flex gap-3 flex-wrap text-[10px] font-mono mb-6">
                         <span class="bg-[#10b981]/10 px-2 py-1 rounded">WORKFORCE METRICS</span>
                         <span class="bg-[#10b981]/10 px-2 py-1 rounded">ETL</span>
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">POWER BI</span>
                     </div>
-                    <a href="https://medium.com/@godswilldouglas117/title-beyond-the-spreadsheet-how-i-used-power-bi-to-uncover-a-50-attrition-crisis-ca6d26c2de48" target="_blank" class="border border-[#10b981] accent-color px-6 py-2 rounded text-xs font-bold hover:bg-[#10b981]/10 transition-all inline-flex items-center gap-2">
+                    <a href="https://medium.com/@godswilldouglas117/title-beyond-the-spreadsheet-how-i-used-power-bi-to-uncover-a-50-attrition-crisis-ca6d26c2de48" target="_blank" class="accent-color text-xs font-bold hover:underline inline-flex items-center gap-2">
                         View Case Study <span class="material-symbols-outlined text-sm">open_in_new</span>
                     </a>
                 </div>
@@ -162,41 +186,22 @@
             </div>
 
             <div class="grid lg:grid-cols-12 gap-6 items-center mb-32">
-                <div class="lg:col-span-5 z-10">
+                <div class="lg:col-span-7 rounded overflow-hidden shadow-2xl border border-[#1e293b] lg:order-first order-last">
+                    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZDVlYmZlZGEtYmRmYy00OTUyLWJiZTYtYmI2Yjk5MmNhNGMzIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" class="w-full h-[450px]"></iframe>
+                </div>
+                <div class="lg:col-span-5 z-10 lg:pl-10">
                     <p class="accent-color font-mono text-xs mb-2">Finance Pipeline</p>
                     <h3 class="text-2xl font-bold hero-text mb-4">Banking Credit Risk Pipeline</h3>
                     <div class="glass-card p-6 mb-4 text-[#94a3b8] shadow-xl text-sm leading-relaxed">
                         End-to-end data pipeline for 5,000+ customers. Used Python for exploratory data analysis (EDA) and SQL for data architecture to visualize risk patterns.
                     </div>
                     <div class="flex gap-3 flex-wrap text-[10px] font-mono mb-6">
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">PYTHON</span>
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">SQL</span>
                         <span class="bg-[#10b981]/10 px-2 py-1 rounded">RISK MODELING</span>
+                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">PYTHON</span>
                     </div>
-                    <a href="https://github.com/Godswill-07/Banking-Project#" target="_blank" class="border border-[#10b981] accent-color px-6 py-2 rounded text-xs font-bold hover:bg-[#10b981]/10 transition-all inline-flex items-center gap-2">
-                        View Case Study <span class="material-symbols-outlined text-sm">open_in_new</span>
+                    <a href="https://github.com/Godswill-07/Banking-Project#" target="_blank" class="accent-color text-xs font-bold hover:underline inline-flex items-center gap-2">
+                        View Source Code <iconify-icon icon="simple-icons:github"></iconify-icon>
                     </a>
-                </div>
-                <div class="lg:col-span-7 rounded overflow-hidden shadow-2xl border border-[#1e293b]">
-                    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZDVlYmZlZGEtYmRmYy00OTUyLWJiZTYtYmI2Yjk5MmNhNGMzIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" class="w-full h-[450px]"></iframe>
-                </div>
-            </div>
-
-            <div class="grid lg:grid-cols-12 gap-6 items-center mb-32">
-                <div class="lg:col-span-5 z-10">
-                    <p class="accent-color font-mono text-xs mb-2">Retail Forecasting</p>
-                    <h3 class="text-2xl font-bold hero-text mb-4">Sales Performance & Forecasting</h3>
-                    <div class="glass-card p-6 mb-4 text-[#94a3b8] shadow-xl text-sm leading-relaxed">
-                        Built a comprehensive sales engine that combines historical performance with Python-driven predictive modeling to forecast next-quarter revenue with high accuracy.
-                    </div>
-                    <div class="flex gap-3 flex-wrap text-[10px] font-mono mb-6">
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">TIME SERIES</span>
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">PREDICTIVE ANALYTICS</span>
-                        <span class="bg-[#10b981]/10 px-2 py-1 rounded">NUMPY/PANDAS</span>
-                    </div>
-                </div>
-                <div class="lg:col-span-7 rounded overflow-hidden shadow-2xl border border-[#1e293b]">
-                    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiNGFkMmZiOGUtY2IzYi00YzA5LWE5ZDUtNWNkMjVkY2ViY2NhIiwidCI6ImY2N2ZjZTU3LTNmZGEtNDkxOS04MDdmLTIxN2M4ZGQxMjY2OSJ9" class="w-full h-[450px]"></iframe>
                 </div>
             </div>
         </section>
